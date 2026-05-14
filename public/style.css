@@ -28,7 +28,7 @@ body {
   font-size: 3rem;
 }
 
-/* MAIN CONTENT */
+
 
 main {
   width: 80%;
@@ -36,7 +36,7 @@ main {
   padding: 40px 0;
 }
 
-/* FORM SECTION */
+
 
 .form-section {
   background: white;
@@ -74,7 +74,7 @@ form button:hover {
   background-color: #3e2b22;
 }
 
-/* BOOK SECTION */
+
 
 .books-section h2 {
   margin-bottom: 20px;
@@ -104,7 +104,7 @@ li {
   font-size: 1.1rem;
 }
 
-/* BUTTONS */
+
 
 .update-button,
 .delete-button {
@@ -138,7 +138,6 @@ li {
   background-color: #8a3636;
 }
 
-/* MESSAGE */
 
 #message {
   margin-top: 20px;
