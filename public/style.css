@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f1ea;
+  color: #2d2d2d;
+}
+
+.hero {
+  height: 300px;
+  background-image: url('/library.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 3rem;
+}
+
+/* MAIN CONTENT */
+
+main {
+  width: 80%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+/* FORM SECTION */
+
+.form-section {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+form input {
+  flex: 1;
+  min-width: 200px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  padding: 12px 20px;
+  border: none;
+  background-color: #5c4033;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background-color: #3e2b22;
+}
+
+/* BOOK SECTION */
+
+.books-section h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-info strong {
+  font-size: 1.1rem;
+}
+
+/* BUTTONS */
+
+.update-button,
+.delete-button {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.update-button {
+  background-color: #ad8f65;
+  border: 2px solid #93754f;
+  color: white;
+}
+
+.update-button:hover {
+  background-color: #846c4e;
+  
+}
+
+.delete-button {
+  background-color: #b04a4a;
+  color: white;
+  border: 2px solid #7e2626;
+  
+}
+
+.delete-button:hover {
+  background-color: #8a3636;
+}
+
+/* MESSAGE */
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #b04a4a;
+}
